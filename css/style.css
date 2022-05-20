@@ -81,7 +81,7 @@ textarea:focus, input:focus, select:focus {
    
     margin-top: 50px;
     margin-left: 60px;
-    background-image: url(/img/imgsearch.png);
+    background-image: url(../img/imgsearch.png);
     background-position: center;
     background-size: 350px;
     background-position-y: 50px;
