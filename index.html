@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+	  
+    <title>Decodificador</title>
+</head>
+
+<body>
+
+    <header class="nav">
+        <div class="caixa">
+            <a href ="https://www.alura.com.br/" target="_blank"><img src="./img/Logo-alura.svg" alt="Logo Alura"></a>
+            <h1>Encriptação</h1> 
+        </div>
+	</header>
+    <main>
+        <section>
+            <textarea class="input-text" id="entrada" cols="40" rows="6" placeholder="digite o seu texto aqui"></textarea>
+
+            <div class="information">
+
+                <h6 class="text">❗ Apenas letras maiúsculas e minúsculas e sem acento </h6>
+            </div>
+            <div class="button">
+                <button class="encriptor" onclick="btnEncriptar()">
+                    <p>Criptografar</p>
+                </button>
+
+                <button class="descriptor" onclick="btnDesencriptar()">
+                    <p>Descriptografar</p>
+                </button>
+
+                <!--inserido pelo atalho .botoes-->
+            </div>
+        </section>
+
+        <section class="output">
+            <div>
+                <textarea class="mensage" id="msgoutput" cols="18" rows="8"
+                    placeholder="Nenhuma mensagem encontrada."></textarea>
+            </div>
+
+            <section class="btnCopyClear">
+
+                <button class="btnCopyText" onclick="btnCopy()">Copiar</button>
+
+                <button class="btnClearText" onclick="btnClear()">
+                    Limpar
+                </button>
+            </section>
+
+        </section>
+    </main>
+
+    <footer class="author">
+      <p>© Criado por Maycon Santos</p><br>
+      <a href = "https://www.linkedin.com/in/maycon-santos-83657770/" target="_blank"><img src="./img/icon-linkedin78.png" alt="icone linkedin"></a> 
+      <a href ="https://github.com/mayconamancio" target="_blank"><img src="./img/icon-git-78.png" alt="icone github"></a> 
+      <a href ="https://api.whatsapp.com/send?phone=5511948273857&text=Entre%20em%20contato!" target="_blank"><img src="./img/wtz.png" alt="icone Watzaap"></a> 
+      <a href ="mailto:maycon_santos@ymail.com" target="_blank"><img src="./img/email.png" alt="icone email"></a> 
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
